@@ -1,5 +1,7 @@
-- In HW 48, a binary search on an array with length 10000 took such a small amount of time that the difference could sometimes not be measured using System.out.println(System.currentTimeMillis());
-- 2^31 - 1 total length is the max size of an array (About 2 million)
-- The lengths of the arrays need to be absolutely massive if we want any data on how much time it takes to run a search
-- We could run multiple searches in a single trial so that there is a noticeable difference in time, or we could just check if the Linear run has a difference in time, as opposed to the Binary run having no difference in time
+DISCO:
+  - In HW 48, a binary search on an array with length 10000 took such a small amount of time that the difference could sometimes not be measured using System.out.println(System.currentTimeMillis());
+  - 2^31 - 1 total length is the max size of an array (About 2 million)
 
+QCC: 
+  - The lengths of the arrays need to be absolutely massive if we want any data on how much time it takes to run a search
+  - We could run multiple searches in a single trial so that there is a noticeable difference in time, or we could just check if the Linear run has a difference in time, as opposed to the Binary run having no difference in time
