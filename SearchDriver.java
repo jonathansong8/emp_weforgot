@@ -8,16 +8,21 @@ public class SearchDriver{
 	}
 
 	public static long binTime(Comparable[] arr, int searcher){
+		System.out.print(System.currentTimeMillis());
 		long time_before=System.currentTimeMillis();
 
 		BinSearch.binSearch(arr,searcher);
+		
 		long time_after=System.currentTimeMillis();
+
+		System.out.print(System.currentTimeMillis());
 
 		return time_after-time_before;
 	}
 	
 	public static void main(String[] args){
 		Comparable[] array = makeArray(100000000);
+		System.out.println(binTime(array, 100));
 		System.out.println(binTime(array, 100));
 	}
 }
