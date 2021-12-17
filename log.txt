@@ -7,6 +7,7 @@
 12/16/21 7:30pm meet
   - Realized that we will need to use an OrderedArrayList to run binary search, therefore manually placing a number to search would be unfair, since smaller numbers favor
   a linear search
+  - Also realized that repeating numbers favor a binary search because the algorithm has a higher chance of guessing an index in that "block"
   - Found that System.currentTimeMillis() can be used to determine the time that has passed between operations
   - Found that an array with a size of 10000 was still processed extremely quickly, to the point where System.currentTimeMillis() does not change before and after 
-  - Changed plans to search for a randomized number instead of a given number, and to create arrays with sizes in the hundreds of thousands
+  - Changed plans to search for a randomized number instead of a given number, and to create arrays with sizes in the hundreds of thousands, with all unique values
