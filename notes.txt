@@ -5,3 +5,5 @@ DISCO:
 QCC: 
   - The lengths of the arrays need to be absolutely massive if we want any data on how much time it takes to run a search
   - We could run multiple searches in a single trial so that there is a noticeable difference in time, or we could just check if the Linear run has a difference in time, as opposed to the Binary run having no difference in time
+  - If currentTimeMillis() returns the difference in milliseconds between now and January 1, 1970, wouldn't the number be too large? When we try to print
+  currentTimeMillis() before and after a search, the result seems to always be either 0, 1, or -1,
