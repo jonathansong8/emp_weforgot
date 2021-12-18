@@ -11,3 +11,9 @@
   - Found that System.currentTimeMillis() can be used to determine the time that has passed between operations
   - Found that an array with a size of 10000 was still processed extremely quickly, to the point where System.currentTimeMillis() does not change before and after 
   - Changed plans to search for a randomized number instead of a given number, and to create arrays with sizes in the hundreds of thousands, with all unique values
+  
+12/17/21 In-class
+  - Started creating a method to print out the difference in time between the start and end of a binary search
+  - Decided to expand the size of arrays into the millions
+  - Had some problems with subtracting longs
+  
