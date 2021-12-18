@@ -15,5 +15,5 @@
 12/17/21 In-class
   - Started creating a method to print out the difference in time between the start and end of a binary search
   - Decided to expand the size of arrays into the millions
-  - Had some problems with subtracting longs
+  - Had some problems with subtracting the values of System.currentTimeMillis()
   
