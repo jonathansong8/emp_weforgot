@@ -23,4 +23,6 @@
   - Made instance variables size, targetNumber, array, targets
   - Modified plan to use arrays instead of OrderedArrayList
   
-  
+12/19/21 5:00 pm
+  - No more randomness, we will now search for every element in the list one at a time, and record the total time
+    - We will find the average time for an element by dividing this time by size
