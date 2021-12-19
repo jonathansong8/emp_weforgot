@@ -7,6 +7,6 @@
 |placeholder |                               |                               |                    |                           
 |placeholder |                               |                               |                    |                           
 |placeholder |                               |                               |                    |  
-|## Averages |                               |                               |                    |       
+|  Averages  |                               |                               |                    |       
 
 ## Conclusions
