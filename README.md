@@ -2,9 +2,9 @@
 ## Tests performed
 
 ## Results
-| Array Size | Searches Run | BinSearch Time (milliseconds) | LinSearch Time (milliseconds) | Difference in Time | Avg Difference Per Search |
-|------------|--------------|-------------------------------|-------------------------------|--------------------|---------------------------|
-|placeholder            |              |                               |                               |                    |                           |
-|placeholder            |              |                               |                               |                    |                           |
-|placeholder            |              |                               |                               |                    |                           |
+| Array Size | Searches Run | BinaryAvgTime (milliseconds) | LinearAvgTime (milliseconds) | Avg Difference in Time Per Search |
+|------------|--------------|-------------------------------|-------------------------------|--------------------|
+|placeholder |              |                               |                               |                    |                           
+|placeholder |              |                               |                               |                    |                           
+|placeholder |              |                               |                               |                    |                           
 ## Conclusions
