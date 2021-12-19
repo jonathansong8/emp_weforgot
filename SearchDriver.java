@@ -1,5 +1,5 @@
 public class SearchDriver{
-	static int size = 10000;
+	static int size = 100000;
 	static long elapsedTime;
 
 	static Comparable[] array = makeArray(size);
@@ -49,9 +49,9 @@ public class SearchDriver{
   	}
 
 	public static void main(String[] args){
-		System.out.println("Time elapsed for " + size + " Binary searches on " + size + " elements: " + binTime());
+		System.out.println("Time elapsed for " + size + " Binary searches on " + size + " elements: " + binTime() + " milliseconds");
 		System.out.println("Average time per search: " + binaryAvgTime() + " milliseconds" + "\n");
-		System.out.println("Time elapsed for " + size + " Linear searches on " + size + " elements: " + linTime());
+		System.out.println("Time elapsed for " + size + " Linear searches on " + size + " elements: " + linTime() + " milliseconds");
 		System.out.println("Average time per search: " + linearAvgTime() + " milliseconds" + "\n");
 
 	}
