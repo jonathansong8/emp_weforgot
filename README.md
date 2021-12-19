@@ -2,7 +2,7 @@
 ## Tests performed
 
 ## Results
-| Array Size | Searches Run | BinaryAvgTime (milliseconds) | LinearAvgTime (milliseconds) | Avg Difference in Time Per Search |
+| Array Size | Searches Run | Binary Average Time (milliseconds) | Linear Average Time (milliseconds) | Avg Difference in Time |
 |------------|--------------|-------------------------------|-------------------------------|--------------------|
 |placeholder |              |                               |                               |                    |                           
 |placeholder |              |                               |                               |                    |                           
