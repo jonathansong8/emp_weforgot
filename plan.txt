@@ -1,9 +1,8 @@
 Experiment
   1. Create an array of size 100,000 
   2. Populate the array with integers 0 to size- 1 using add()
-  3. Search (int) (Math.random * array.length) using Linear and Binary
-  4. Repeat this with many different random numbers to find avg time for a random element
+  3. Search for every element in the array using Linear and Binary
+  4. Repeat this many different times to find avg time for an element
   5. Use currentTimeMillis() to get the milliseconds before and after each search, for both Linear and Binary
   6. Compare the LinearAvgTime to BinaryAvgTime
   7. Repeat with arrays of different sizes
-
