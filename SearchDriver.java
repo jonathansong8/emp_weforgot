@@ -1,9 +1,8 @@
 public class SearchDriver{
-	static int size = 100000;
-	// static int targetNumber = 1000;
+	static int size = 10000;
+	static long elapsedTime;
 
 	static Comparable[] array = makeArray(size);
-	//static Comparable[] targets = makeTargets(targetNumber, size);
 
 	public static Comparable[] makeArray(int size){
 		Comparable[] array = new Comparable[size];
@@ -12,17 +11,6 @@ public class SearchDriver{
 		}
 		return array;
 	}
-/*
-	public static Comparable[] makeTargets(int targets, int size) {
-		Comparable[] array = new Comparable[targets];
-		for(int i=0;i<targets;i++){
-			array[i] = (int)(Math.random() * size);
-		}
-		return array;
-	}
-*/
-  // creates array of random numbers
-
 
 	public static long binTime() {
 		long time_before = System.currentTimeMillis();
@@ -33,12 +21,14 @@ public class SearchDriver{
 
 		long time_after = System.currentTimeMillis();
 
-		return (time_after - time_before);
+		elapsedTime = time_after - time_before;
+
+		return elapsedTime;
 	}
 
 	public static double binaryAvgTime() {
-	    return (double)(binTime()) / size;
-	  }
+	    return (double)(elapsedTime) / size;
+	}
 
 	public static long linTime() {
 		long time_before = System.currentTimeMillis();
@@ -49,18 +39,20 @@ public class SearchDriver{
 
 		long time_after = System.currentTimeMillis();
 
-		return (time_after - time_before);
+		elapsedTime = time_after - time_before;
+
+		return elapsedTime;
 	}
 
 	public static double linearAvgTime() {
-    		return (double)(linTime()) / size;
+    	return (double)(elapsedTime) / size;
   	}
 
 	public static void main(String[] args){
 		System.out.println("Time elapsed for " + size + " Binary searches on " + size + " elements: " + binTime());
-		System.out.println(binaryAvgTime());
+		System.out.println("Average time per search: " + binaryAvgTime() + " milliseconds" + "\n");
 		System.out.println("Time elapsed for " + size + " Linear searches on " + size + " elements: " + linTime());
-		System.out.println(linearAvgTime());
+		System.out.println("Average time per search: " + linearAvgTime() + " milliseconds" + "\n");
 
 	}
 }
