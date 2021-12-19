@@ -21,5 +21,6 @@
   - Changed SearchDriver's binTime method to search multiple times before returning time elapsed. Now the difference in currentTimeMillis is not zero for a binary search.
   - Created makeTargets() for making an array of targets for binTime to search for
   - Made instance variables size, targetNumber, array, targets
+  - Modified plan to use arrays instead of OrderedArrayList
   
   
