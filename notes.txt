@@ -4,5 +4,6 @@ DISCO:
   - Elapsed time for binary searches is often 0. This isn't an error. It really is that fast
   
 QCC: 
-  - The lengths of the arrays need to be absolutely massive if we want any data on how much time it takes to run a search
+  - The lengths of the arrays need to be massive if we want any data on how much time it takes to run a search
   - We could run multiple searches in a single trial so that there is a noticeable difference in time, or we could just check if the Linear run has a difference in time, as opposed to the Binary run having no difference in time
+  - When we ran a binary search on every element within an array, there was still variation in the time elapsed. Why is that?
