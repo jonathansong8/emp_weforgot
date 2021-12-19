@@ -1,5 +1,3 @@
-import java.net.BindException;
-
 public class SearchDriver{
 	static int size = 10_000_000;
 	static int targetNumber = 1000;
