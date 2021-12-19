@@ -23,7 +23,7 @@ public class SearchDriver{
 		return array;
 	}
 
-	public static long binTime(Comparable[] array){
+	public static long binTime(){
 		long time_before = System.currentTimeMillis();
 
 		for(Comparable target : targets) {
@@ -35,6 +35,6 @@ public class SearchDriver{
 		return (time_after - time_before);
 	}
 	public static void main(String[] args){
-		System.out.println("Time elapsed for " + targetNumber + " Binary searches on " + size + " elements: " + binTime(array));
+		System.out.println("Time elapsed for " + targetNumber + " Binary searches on " + size + " elements: " + binTime());
 	}
 }
