@@ -17,6 +17,3 @@
   - Decided to expand the size of arrays into the millions
   - Had some problems with subtracting the values of System.currentTimeMillis()
   
-12/18/21
-  - Found nanoTime(). Unsure if we are allowed to use it
-  - No
