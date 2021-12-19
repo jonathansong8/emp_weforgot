@@ -17,3 +17,9 @@
   - Decided to expand the size of arrays into the millions
   - Had some problems with subtracting the values of System.currentTimeMillis()
   
+12/19/21 1:45pm
+  - Changed SearchDriver's binTime method to search multiple times before returning time elapsed. Now the difference in currentTimeMillis is not zero for a binary search.
+  - Created makeTargets() for making an array of targets for binTime to search for
+  - Made instance variables size, targetNumber, array, targets
+  
+  
