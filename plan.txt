@@ -1,9 +1,9 @@
 Experiment
-  1. Create an OrderedArrayList of size 100,000
-  2. Populate the OrderedArrayList with integers 0 to size- 1 using add()
+  1. Create an array of size 100,000 
+  2. Populate the array with integers 0 to size- 1 using add()
   3. Search (int) (Math.random * array.length) using Linear and Binary
-  4. epeat this with many different random numbers to find avg time for a random element
+  4. Repeat this with many different random numbers to find avg time for a random element
   5. Use currentTimeMillis() to get the milliseconds before and after each search, for both Linear and Binary
   6. Compare the LinearAvgTime to BinaryAvgTime
-  7. Repeat with OrderedArrayLists of different sizes
+  7. Repeat with arrays of different sizes
 
