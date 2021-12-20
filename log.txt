@@ -26,3 +26,9 @@
 12/19/21 5:00 pm
   - No more randomness, we will now search for every element in the list one at a time, and record the total time
   - We will find the average time for an element by dividing this time by size
+
+12/20/21 1:40 pm 
+  - Added two new arrays to store binary times and linear times 
+  - Added new static variable that determines how many times the experiment is run
+  - Created a method to find the average of the values in those arrays 
+  - Added functionality in main method to fill arrays
