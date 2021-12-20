@@ -14,6 +14,7 @@
 |5000        |               .0004                |              .003                  |       .0026        |
 |1000        |               .0001                |              .0004                 |       .0003        | 
 |  Averages  |                                    |                                    |                    | 
+
 ![Linear vs Binary times](https://user-images.githubusercontent.com/58864927/146701392-d3ecb411-12df-47fa-8b65-3b9e8af3bb60.png)
 
 ## Conclusions
