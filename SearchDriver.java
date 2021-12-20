@@ -1,7 +1,11 @@
 public class SearchDriver{
-	static int size = 100000;
-	static long elapsedTime;
 
+	static int repetitions = 100;
+	static double[] binaryTimes =  new double[repetitions];
+	static double[] linearTimes =  new double[repetitions];
+	
+	static int size = 5000; 
+	static long elapsedTime;
 	static Comparable[] array = makeArray(size);
 
 	public static Comparable[] makeArray(int size){
@@ -26,10 +30,6 @@ public class SearchDriver{
 		return elapsedTime;
 	}
 
-	public static double binaryAvgTime() {
-	    return (double)(elapsedTime) / size;
-	}
-
 	public static long linTime() {
 		long time_before = System.currentTimeMillis();
 
@@ -44,15 +44,40 @@ public class SearchDriver{
 		return elapsedTime;
 	}
 
-	public static double linearAvgTime() {
+	public static double timePerSearch() {
     	return (double)(elapsedTime) / size;
   	}
+	
+	public static double avgTimes(double[] times) {
+		double sum = 0;
+		for(double time : times) {
+			sum += time;
+		}
+		return sum / repetitions;
+	}
 
 	public static void main(String[] args){
+
+		for(int i = 0; i < repetitions; i++) {
+			binTime();
+			binaryTimes[i] = timePerSearch();
+		}
+
+		System.out.println(avgTimes(binaryTimes));
+
+		for(int i = 0; i < repetitions; i++) {
+			linTime();
+			linearTimes[i] = timePerSearch();
+		}
+
+		System.out.println(avgTimes(linearTimes));
+
+		/*
 		System.out.println("Time elapsed for " + size + " Binary searches on " + size + " elements: " + binTime() + " milliseconds");
-		System.out.println("Average time per search: " + binaryAvgTime() + " milliseconds" + "\n");
+		System.out.println("Average time per search: " + timePerSearch() + " milliseconds" + "\n");
 		System.out.println("Time elapsed for " + size + " Linear searches on " + size + " elements: " + linTime() + " milliseconds");
-		System.out.println("Average time per search: " + linearAvgTime() + " milliseconds" + "\n");
+		System.out.println("Average time per search: " + timePerSearch() + " milliseconds" + "\n");
+		*/
 
 	}
 }
