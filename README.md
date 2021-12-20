@@ -1,10 +1,10 @@
 # Team weforgot: Kevin Li, Justin Mohabir, Jonathan Song
 ## Tests performed
-First, we created an array of size 100000, containing integers 0 to 99999.
-Then we ran a binary search on every element in that array, and recorded the time elapsed by subtracting currentTimeMillis before the search, from currentTimeMillis after the search
-Then we took the time elapsed and divided it by the array size to get the average time needed to search for 1 element
-This was repeated 100 times, and the average times were placed into a second array 
-Then we calculated an average using all those times in the second array
+1. We created an array of size 100000, containing integers 0 to 99999.
+2. We ran a binary search on every element in that array, and recorded the time elapsed by subtracting currentTimeMillis before the search, from currentTimeMillis after the search
+3. We took the time elapsed and divided it by the array size to get the average time needed to search for 1 element
+4. We repeated steps 1-3 100 times, and those average times were placed into a second array 
+5. We calculated an average using all those times in the second array
 The above steps were repeated for linear search
 
 ## Results
