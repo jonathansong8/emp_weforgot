@@ -23,7 +23,7 @@
 |1000        |               .00007               |              .00031                |       .00303       | 
 |  Averages  |                                    |                                    |                    | 
 
-![Binary Average Time, Linear Average Time and Difference in Time](https://user-images.githubusercontent.com/58864927/146707414-42046b39-1690-4c21-b296-5774365d92a3.png)
+![Binary Average Time, Linear Average Time and Difference in Time (1)](https://user-images.githubusercontent.com/58864927/146709394-b3f1a402-d730-4a56-bcf2-7cad2a0974a6.png)
 
 The time for a binary search is so small in comparison to the time for a linear search, that the graphs of linear search time, and difference in time, overlap
 
