@@ -8,6 +8,7 @@
 |placeholder |                               |                               |                    |                           
 |placeholder |                               |                               |                    |  
 |  Averages  |                               |                               |                    |       
-![Linear vs Binary times](https://user-images.githubusercontent.com/58864927/146701356-59d0ae27-b51e-44e4-b806-73b7f8eb6935.png)
+
+![Linear vs Binary times](https://user-images.githubusercontent.com/58864927/146701392-d3ecb411-12df-47fa-8b65-3b9e8af3bb60.png)
 
 ## Conclusions
