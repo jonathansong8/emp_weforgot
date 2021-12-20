@@ -6,7 +6,7 @@
 4. We repeated steps 1-3 100 times, and those average times were placed into a second array 
 5. We calculated an average using all those times in the second array
 6. We repeated the above steps for arrays of sizes 75000, 50000, 25000, 20000, 15000, 10000, 5000, and 1000
-The above steps were repeated for linear search, then we graphed the results
+7. The above steps were repeated for linear search, then we graphed the results
 
 
 ## Results
