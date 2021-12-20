@@ -21,10 +21,10 @@
 |10000       |               .000056              |              .0028123              |       .0027563     | 
 |5000        |               .000046              |              .001278               |       .001232      |
 |1000        |               .00007               |              .00031                |       .00303       | 
-|  Averages  |                                    |                                    |                    | 
 
-![Binary vs Linear Search](https://user-images.githubusercontent.com/58864927/146709457-33769979-27ff-46fc-b642-964cbc2ebfd8.png)
+![Binary vs Linear Search](https://user-images.githubusercontent.com/58864969/146817996-5a8db491-a528-4101-a8c1-cbff741fe0a5.png)
 
 The time for a binary search is so small in comparison to the time for a linear search, that the graphs of linear search time, and difference in time, overlap
 
 ## Conclusions
+As the size of the array increase, the difference in time between Binary and linear increases
