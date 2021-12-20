@@ -5,7 +5,9 @@
 3. We took the time elapsed and divided it by the array size to get the average time needed to search for 1 element
 4. We repeated steps 1-3 100 times, and those average times were placed into a second array 
 5. We calculated an average using all those times in the second array
-The above steps were repeated for linear search
+6. We repeated the above steps for arrays of sizes 75000, 50000, 25000, 20000, 15000, 10000, 5000, and 1000
+The above steps were repeated for linear search, then we graphed the results
+
 
 ## Results
 | Array Size | Binary Average Time (milliseconds) | Linear Average Time (milliseconds) | Difference in Time |
