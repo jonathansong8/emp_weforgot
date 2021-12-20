@@ -2,7 +2,7 @@ DISCO:
   - In HW 48, a binary search on an array with length 10000 took such a small amount of time that the difference could sometimes not be measured using System.out.println(System.currentTimeMillis());
   - 2^31 - 1 total length is the max size of an array (About 2 million)
   - Elapsed time for binary searches is often 0. This isn't an error. It really is that fast
-  - As the size of the array increases, the times for binary and linear search seem to increase exponentially, but binary increases at a much slower rate
+  - As the size of the array increases, the times for binary and linear search seem to increase linearly, but linear searches start to take really long, while binary searches remain extremely fast
   
 QCC: 
   - The lengths of the arrays need to be massive if we want any data on how much time it takes to run a search
