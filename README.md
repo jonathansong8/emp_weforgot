@@ -15,7 +15,6 @@
 |1000        |               .00007               |              .00031                |       .00303       | 
 |  Averages  |                                    |                                    |                    | 
 
-
-![Linear vs Binary times](https://user-images.githubusercontent.com/58864927/146701392-d3ecb411-12df-47fa-8b65-3b9e8af3bb60.png)
+![Binary Average Time, Linear Average Time and Difference in Time](https://user-images.githubusercontent.com/58864927/146707414-42046b39-1690-4c21-b296-5774365d92a3.png)
 
 ## Conclusions
