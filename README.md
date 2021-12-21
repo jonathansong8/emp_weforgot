@@ -1,5 +1,6 @@
 # Team weforgot: Kevin Li, Justin Mohabir, Jonathan Song
 ## Tests performed
+Part 1:
 1. We created an array of size 100000, containing integers 0 to 99999.
 2. We ran a binary search on every element in that array, and recorded the time elapsed by subtracting currentTimeMillis before the search, from currentTimeMillis after the search
 3. We took the time elapsed and divided it by the array size to get the average time needed to search for 1 element
@@ -8,6 +9,13 @@
 6. We repeated the above steps for arrays of sizes 75000, 50000, 25000, 20000, 15000, 10000, 5000, and 1000
 7. The above steps were repeated for linear search, then we graphed the results
 
+Part 2:
+1. We ran a binary search for the last number in an array of size 80000000, 100 times
+2. We recorded the time elapsed by subtracting currentTimeMillis before the search, from currentTimeMillis after the search
+3. We divided the time elapsed by the number of repetitions, which is 100, in order to get an average time for the worst case scenario
+4. We repeated steps 1-3 for arrays of sizes 70000000, 60000000, 50000000, 40000000, 30000000, 20000000, 10000000, 1000000
+5. We graphed the results
+6. The above steps were repeated for linear search
 
 ## Results
 ### Part 1
@@ -45,7 +53,11 @@ The time for a binary search is so small in comparison to the time for a linear 
 Once again, the graph of Linear overlaps with that of the difference in time. This time, it's because binary returned 0 for all sizes tested
 
 ## Conclusions
+From Part 1:
 * As the size of the array increases, the difference in time between Binary and Linear increases.
 * The time elapsed for both the Binary and Linear search scale linearly with the size of the array
 * The difference in speed between Binary and Linear increases significantly as the array size increases. The speed of binary hardly changes at all, while linear becomes very slow
-* Binary is significantly faster than linear in our tests. 
+
+From Part 2:
+* Even in the worst case scenario, Binary outperforms Linear significantly. Even with 100 repetitions, binary search had a time of 0 for all array sizes
+* The time elapsed for both the Binary and Linear search again scale linearly
