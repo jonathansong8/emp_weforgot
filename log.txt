@@ -33,5 +33,9 @@
   - Created a method to find the average of the values in those arrays 
   - Added functionality in main method to fill arrays
   - Added a graph of search times
+  
+12/20/21 After school
   - Corrected an error in the graph. .00031 was plotted as .0031 on the graph, leading to an out of place data point
   - Added linWorst() and binWorst() which measure the time elapsed for the worst case scenario
+  - Changed linWorst() and binWorst() to return doubles
+  - Updated data to reflect new return type
