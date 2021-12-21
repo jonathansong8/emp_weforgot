@@ -32,3 +32,4 @@
   - Added new static variable that determines how many times the experiment is run
   - Created a method to find the average of the values in those arrays 
   - Added functionality in main method to fill arrays
+  - Added a graph of search times
