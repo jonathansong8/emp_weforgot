@@ -4,7 +4,7 @@ public class SearchDriver{
 	static double[] binaryTimes =  new double[repetitions];
 	static double[] linearTimes =  new double[repetitions];
 	
-	static int size = 60000000; 
+	static int size = 80000000; 
 	static long elapsedTime;
 	static Comparable[] array = makeArray(size);
 
@@ -44,7 +44,7 @@ public class SearchDriver{
 		return elapsedTime;
 	}
 
-	public static long linWorst() {
+	public static double linWorst() {
 		long time_before = System.currentTimeMillis();
 
 		for(int i = 0; i < repetitions; i++) {
@@ -53,10 +53,10 @@ public class SearchDriver{
 
 		long time_after = System.currentTimeMillis();
 
-		return (time_after - time_before) / repetitions;
+		return (double)(time_after - time_before) / repetitions;
 	}
 
-	public static long binWorst() {
+	public static double binWorst() {
 		long time_before = System.currentTimeMillis();
 
 		for(int i = 0; i < repetitions; i++) {
@@ -65,7 +65,7 @@ public class SearchDriver{
 
 		long time_after = System.currentTimeMillis();
 
-		return (time_after - time_before) / repetitions;
+		return (double)(time_after - time_before) / repetitions;
 	}
 
 	public static double timePerSearch() {
