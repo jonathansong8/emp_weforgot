@@ -61,3 +61,5 @@ From Part 1:
 From Part 2:
 * Even in the worst case scenario, Binary outperforms Linear significantly. Even with 100 repetitions, binary search had a time of 0 for all array sizes
 * The time elapsed for both the Binary and Linear search again scale linearly
+
+Binary was faster than Linear in all tests we performed, and as the size of the arrays increased, the difference in speed became greater, with Linear's times increasing, whereas Binary's stayed consistently low
