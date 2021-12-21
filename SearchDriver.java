@@ -81,11 +81,11 @@ public class SearchDriver{
 	}
 
 	public static void main(String[] args){
+		// Please only test one at a time.
 
 		System.out.println(binWorst());
 		System.out.println(linWorst());
-
-		/*
+		/* */
 		for(int i = 0; i < repetitions; i++) {
 			binTime();
 			binaryTimes[i] = timePerSearch();
@@ -99,7 +99,6 @@ public class SearchDriver{
 		}
 
 		System.out.println(avgTimes(linearTimes));
-		*/
 
 	}
 }
