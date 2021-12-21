@@ -20,9 +20,9 @@
 |15000       |               .0000493             |              .004123               |       .0040737     | 
 |10000       |               .000056              |              .0028123              |       .0027563     | 
 |5000        |               .000046              |              .001278               |       .001232      |
-|1000        |               .00007               |              .00031                |       .00303       | 
+|1000        |               .00007               |              .00031                |       .00024       | 
 
-![Binary vs Linear Search](https://user-images.githubusercontent.com/58864969/146817996-5a8db491-a528-4101-a8c1-cbff741fe0a5.png)
+![Binary vs Linear Search (1)](https://user-images.githubusercontent.com/58864927/146849780-5bf48388-dce5-4d52-a322-bb60ada89f9b.png)
 
 The time for a binary search is so small in comparison to the time for a linear search, that the graphs of linear search time, and difference in time, overlap
 
