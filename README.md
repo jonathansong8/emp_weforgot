@@ -48,9 +48,9 @@ The time for a binary search is so small in comparison to the time for a linear 
 |10000000    |             0.01                  |             11.62                |       11.61        |
 |1000000     |             0.01                  |             1.11                 |       1.1          | 
 
-![Binary vs Linear Worst Case](https://user-images.githubusercontent.com/58864927/146862317-4afdae99-f5bb-4288-83a7-fc3e67d2d2fd.png)
+![Binary vs Linear worst case (1)](https://user-images.githubusercontent.com/58864927/146864761-e2edbe3a-5df6-4f1c-a6a6-3feb221a4c83.png)
 
-Once again, the graph of Linear overlaps with that of the difference in time. This time, it's because binary returned 0 for all sizes tested
+Once again, the graph of Linear overlaps with that of the difference in time.
 
 ## Conclusions
 From Part 1:
