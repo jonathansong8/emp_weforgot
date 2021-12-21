@@ -26,6 +26,18 @@
 
 The time for a binary search is so small in comparison to the time for a linear search, that the graphs of linear search time and difference in time overlap
 
+| Array Size |  Binary Worst Case (milliseconds) | Linear Worst Case (milliseconds) | Difference in Time | # of times searched |
+|------------|----------------------------------|----------------------------------|--------------------|
+|80000000    |             0                    |             95                   |       95           |                           
+|70000000    |             0                    |             86                   |       86           |                           
+|60000000    |             0                    |             69                   |       69           | 
+|50000000    |             0                    |             62                   |       62           | 
+|40000000    |             0                    |             49                   |       49           | 
+|30000000    |             0                    |             36                   |       36           | 
+|20000000    |             0                    |             23                   |       23           | 
+|10000000    |             0                    |             12                   |       12           |
+|1000000     |             0                    |             1                    |       1            | 
+
 ## Conclusions
 * As the size of the array increases, the difference in time between Binary and Linear increases.
 * The time elapsed for both the Binary and Linear search scale linearly with the size of the array
