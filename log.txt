@@ -34,3 +34,4 @@
   - Added functionality in main method to fill arrays
   - Added a graph of search times
   - Corrected an error in the graph. .00031 was plotted as .0031 on the graph, leading to an out of place data point
+  - Added linWorst() and binWorst() which measure the time elapsed for the worst case scenario
