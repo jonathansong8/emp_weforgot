@@ -24,7 +24,7 @@
 
 ![Binary vs Linear Search (1)](https://user-images.githubusercontent.com/58864927/146849780-5bf48388-dce5-4d52-a322-bb60ada89f9b.png)
 
-The time for a binary search is so small in comparison to the time for a linear search, that the graphs of linear search time, and difference in time, overlap
+The time for a binary search is so small in comparison to the time for a linear search, that the graphs of linear search time and difference in time overlap
 
 ## Conclusions
 * As the size of the array increases, the difference in time between Binary and Linear increases.
