@@ -10,6 +10,7 @@
 
 
 ## Results
+### Part 1
 | Array Size | Binary Average Time (milliseconds) | Linear Average Time (milliseconds) | Difference in Time |
 |------------|------------------------------------|------------------------------------|--------------------|
 |100000      |               .0000612             |              .0278356              |       .0277744     |                           
@@ -26,6 +27,7 @@
 
 The time for a binary search is so small in comparison to the time for a linear search, that the graphs of linear search time and difference in time overlap
 
+### Part 2
 | Array Size |  Binary Worst Case (milliseconds) | Linear Worst Case (milliseconds) | Difference in Time |
 |------------|-----------------------------------|----------------------------------|--------------------|
 |80000000    |             0                     |             95                   |       95           |                           
