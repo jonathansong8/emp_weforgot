@@ -40,6 +40,10 @@ The time for a binary search is so small in comparison to the time for a linear 
 |10000000    |             0                     |             12                   |       12           |
 |1000000     |             0                     |             1                    |       1            | 
 
+![Binary vs Linear Worst Case](https://user-images.githubusercontent.com/58864927/146862317-4afdae99-f5bb-4288-83a7-fc3e67d2d2fd.png)
+
+Once again, the graph of Linear overlaps with that of the difference in time. This time, it's because binary returned 0 for all sizes tested
+
 ## Conclusions
 * As the size of the array increases, the difference in time between Binary and Linear increases.
 * The time elapsed for both the Binary and Linear search scale linearly with the size of the array
