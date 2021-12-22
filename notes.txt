@@ -13,4 +13,6 @@ GALLERY TOUR:
   - Team Consonants did the same thing as we did in part 1: they ran a search on every element of an array. Their results were an exponential relationship between array size and time. Our data shows a linear relationship, but we got our data from dividing by size, while the other group didn't, so the difference in data makes sense
   - Team MumbleCore ran searches on the last element in an array, and they found that at an array of size 6, linear outsped binary.
   - Team Walrus found that measuring speed using time could have varying results, so they measured speed using the number of array accesses. They counted how many iterations was required for each search method to find its target. Their data looked good. We had briefly discussed using array accesses at the start of this lab, but we threw out the idea. It's a shame, since it seems like it worked for Walrus.
-  
+  - Team Perfect Purple Petunias took a similar method to ours, where the difference in time from start to end was recorded. They implemented some private members that we chose not to add.
+  - Team 3 Lucky Duckies found the time elapsed for the worst case scenario for both binary and linear.
+  - Team Cute Cyclops Cult had both binary and linear have the same time 66% of the time.
