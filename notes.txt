@@ -9,7 +9,7 @@ QCC:
   - We could run multiple searches in a single trial so that there is a noticeable difference in time, or we could just check if the Linear run has a difference in time, as opposed to the Binary run having no difference in time
   - When we ran a binary search on every element within an array, there was still variation in the time elapsed. Why is that?
   
-Gallery Tour:
+GALLERY TOUR:
   - Team Consonants did the same thing as we did in part 1: they ran a search on every element of an array. Their results were an exponential relationship between array size and time. Our data shows a linear relationship, but we got our data from dividing by size, while the other group didn't, so the difference in data makes sense
   - Team MumbleCore ran searches on the last element in an array, and they found that at an array of size 6, linear outsped binary.
   - Team Walrus found that measuring speed using time could have varying results, so they measured speed using the number of array accesses. They counted how many iterations was required for each search method to find its target. Their data looked good. We had briefly discussed using array accesses at the start of this lab, but we threw out the idea. It's a shame, since it seems like it worked for Walrus.
